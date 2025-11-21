@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    --primary-color: #caeb66;
+    --colors-dark-black-1: #fff;
+    --colors-dark-black-2: #fdfdfd;
+    --colors-dark-black-3: #f5f5f5;
+    --colors-dark-black-4: #f0f0f0;
+    --colors-dark-black-5: #dadada;
+    --colors-dark-black-6: #c2c2c2;
+    --colors-dark-black-7: #919191;
+    --colors-dark-black-8: #606060;
+    --colors-dark-black-9: #4d4d4d;
+    --colors-dark-black-10: #303030;
+    --colors-dark-black-11: #282828;
+    --colors-dark-black-12: #1f1f1f;
+    --colors-dark-black-13: #0b0b0b;
+    --colors-green-green-1: #fafdf0;
+    --colors-green-green-2: #f2fada;
+    --colors-green-green-3: #e8f6bd;
+    --colors-green-green-4: #def29f;
+    --colors-green-green-5: #d4ef82;
+    --colors-green-green-6: #caeb66;
+    --colors-green-green-7: #acc857;
+    --colors-green-green-8: #8fa748;
+    --colors-green-green-9: #73863a;
+    --colors-green-green-10: #5b6a2e;
+    --colors-primary-red-1: #fdebea;
+    --colors-primary-red-2: #f9cecd;
+    --colors-primary-red-3: #f5a7a6;
+    --colors-primary-red-4: #f17e7d;
+    --colors-primary-red-5: #ec5855;
+    --colors-primary-red-6: #e83330;
+    --colors-primary-red-7: #c52b29;
+    --colors-primary-red-8: #a52422;
+    --colors-primary-red-9: #841d1b;
+    --colors-primary-red-10: #681716;
+    --colors-blue-blue-1: #e6f2f3;
+    --colors-blue-blue-2: #c3dfe2;
+    --colors-blue-blue-3: #94c6cb;
+    --colors-blue-blue-4: #62abb3;
+    --colors-blue-blue-5: #33929d;
+    --colors-blue-blue-6: #067a87;
+    --colors-blue-blue-7: #056873;
+    --colors-blue-blue-8: #045760;
+    --colors-blue-blue-9: #03464d;
+    --colors-blue-blue-10: #03373d;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--colors-blue-blue-1);
+}
